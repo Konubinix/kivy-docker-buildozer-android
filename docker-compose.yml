@@ -1,0 +1,9 @@
+version: '2'
+services:
+  kivy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - "./project:/home/test/project"
+      - "/media/extra/buildozer/:/home/test/.buildozer"
