@@ -6,4 +6,4 @@ services:
       dockerfile: Dockerfile
     volumes:
       - "./project:/home/test/project"
-      - "/media/extra/buildozer/:/home/test/.buildozer"
+      - "./buildozer:/home/test/.buildozer"
