@@ -44,4 +44,4 @@ RUN git clone https://github.com/kivy/buildozer /home/test/buildozer
 # RUN python3 /home/test/buildozer/setup.py build
 RUN pip install --user -e /home/test/buildozer
 WORKDIR /home/test/project
-CMD buildozer android debug deploy run
+CMD buildozer android debug
