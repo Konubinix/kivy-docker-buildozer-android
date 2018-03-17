@@ -15,6 +15,7 @@ RUN echo 'Acquire::Retries "3";' > /etc/apt/apt.conf.d/99extraRetries \
 		python3-pip \
 		python-pip \
 		python3-setuptools \
+		pkg-config \
 		python-setuptools \
   		cython \
 		libssl-dev \
