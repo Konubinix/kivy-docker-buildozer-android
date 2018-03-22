@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM debian:9
 
 ARG DEBIAN_FRONTEND=noninteractive
 RUN dpkg --add-architecture i386
